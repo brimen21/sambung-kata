@@ -269,7 +269,7 @@ await interaction.deferReply({ flags:64 })
 const channel = await interaction.guild.channels.create({
 name:`sambungkata-${interaction.user.username}`,
 type:ChannelType.GuildText,
-parent:"1480481879135092808"
+parent:"1491096737157222522"
 })
 
 saveLog("GAME_CREATED",{user:interaction.user.tag})

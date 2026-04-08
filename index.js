@@ -403,7 +403,7 @@ fs.writeFileSync(fileName,text)
 
 const attachment = new AttachmentBuilder(fileName)
 
-const logChannel = await client.channels.fetch("1480972420524278073")
+const logChannel = await client.channels.fetch("1491096876488065240")
 
 logChannel.send({
 content:`📁 Transcript Game SambungKata\nChannel: ${interaction.channel.name}`,

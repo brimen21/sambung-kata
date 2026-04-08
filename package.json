@@ -1,0 +1,10 @@
+{
+  "name": "bot-sambungkata-pro",
+  "version": "1.0.0",
+  "description": "Discord Sambung Kata Pro Bot",
+  "main": "index.js",
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "dotenv": "^17.3.1"
+  }
+}
